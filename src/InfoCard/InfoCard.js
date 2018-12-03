@@ -28,6 +28,7 @@ export default class InfoCard extends Component{
     requests.post('/acceptMoney',JSON.stringify(this.props)).then(xhr=>{
       this.setState({ clicksCounter:JSON.parse(xhr).clicksCounter });
       this.setState({ processing:false });
+      alert(`Total payment:${JSON.parse(xhr).totalAccepeted}`);
     });
   };
 
