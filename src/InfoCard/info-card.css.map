@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACR,SAAS,EAAE,KAAK",
+"sources": ["info-card.scss"],
+"names": [],
+"file": "info-card.css"
+}

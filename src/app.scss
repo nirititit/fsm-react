@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif !important;
+}
+
+#app-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#app-body{
+  display: flex;
+  .cards-list{
+    padding: 20px 0;
+    flex-shrink: 0;
+  }
+  .info-cards{
+    flex-flow: wrap;
+    display: flex;
+    padding: 20px;
+    .info-card{
+      flex-grow: 1;
+      margin: 10px;
+    }
+  }
+}
+

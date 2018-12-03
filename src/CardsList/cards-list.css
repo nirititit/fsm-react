@@ -1,0 +1,18 @@
+.cards-list {
+  width: 300px;
+  height: 100%;
+  border-right: 1px solid rgba(0, 0, 0, 0.08); }
+  .cards-list .cards-list-header {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .cards-list .cards-list-header span {
+      font-size: 12px; }
+  .cards-list .item-card {
+    cursor: pointer; }
+    .cards-list .item-card:hover {
+      background-color: #ededee; }
+    .cards-list .item-card.selected {
+      background-color: #dcdcdd; }
+
+/*# sourceMappingURL=cards-list.css.map */

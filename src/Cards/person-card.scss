@@ -1,0 +1,35 @@
+.person-card{
+  padding: 20px;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  .header{
+    display: flex;
+    align-items: center;
+
+    .check-box{
+      cursor: pointer;
+      padding-right: 5px;
+    }
+
+    .name{
+      text-transform: capitalize;
+      font-size: 20px;
+      color:var(--primary-color);
+    }
+  }
+  .payment{
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    color:var(--primary-color);
+    span:first-child{
+      padding-right: 5px;
+
+
+    }
+  }
+}
